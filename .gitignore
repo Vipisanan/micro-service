@@ -1,0 +1,33 @@
+# Ignore Maven build files
+target/
+*.log
+
+# Ignore IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Ignore Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Ignore NetBeans specific files
+nbproject/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore local development environment files
+.env
+.env.*
+
+# Ignore dependency files
+*.jar
+*.war
+*.ear
+
+# Ignore Maven wrapper files if you're using a different build tool
+mvnw
+mvnw.cmd
